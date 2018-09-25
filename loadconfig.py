@@ -1,7 +1,8 @@
 import os
 
 __cogs__ = [
-    'cogs.noflippedtables'
+    'cogs.noflippedtables',
+    'ready.ready'
 ] # These cogs actually make the bot have commands (except noflippedtables and ready).
 # Don't remove any of these unless you know what you're doing.
 
