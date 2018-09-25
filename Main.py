@@ -5,6 +5,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
 import loadconfig
+import os
 
 startup_extensions = loadconfig.__cogs__
 bot = commands.Bot ()
