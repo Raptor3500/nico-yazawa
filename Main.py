@@ -12,6 +12,12 @@ bot = commands.Bot (command_prefix='!')
 
 bot.remove_command('help')
 
+async def status_task(self):
+    while True:
+        await self.bot.change_presence(game=discord.Game(name='a guard suffer.', type=3)
+        await self.bot.change_presence(game=discord.Game(name='Snake Eater.', type=2)   
+        await self.bot.change_presence(game=discord.Game(name='super secret documents.', type=1, url='http://twitch.tv/hauntedshadowslegacy')
+
 if __name__ == "__main__":
     for extension in startup_extensions:
         try:
