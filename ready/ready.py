@@ -1,6 +1,9 @@
 import discord
 import loadconfig
 import asyncio
+import Main
+
+status_task() = Main.status_task()
 
 class ready():
     def __init__(self, bot):
