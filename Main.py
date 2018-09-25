@@ -8,7 +8,7 @@ import loadconfig
 import os
 
 startup_extensions = loadconfig.__cogs__
-bot = commands.Bot ()
+bot = commands.Bot (command_prefix='!')
 
 bot.remove_command('help')
 
