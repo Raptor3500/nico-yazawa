@@ -19,6 +19,7 @@ class ready():
         print ("And I am coded with discord.py v" + discord.__version__)
         print (loadconfig.__git__)
         print ("------")
+        bot.loop.create_task(status_task())
         
 
 
