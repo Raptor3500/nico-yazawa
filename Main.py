@@ -7,7 +7,7 @@ import asyncio
 import loadconfig
 
 startup_extensions = loadconfig.__cogs__
-bot = commands.Bot (command_prefix=loadconfig.__prefix__)
+bot = commands.Bot ()
 
 bot.remove_command('help')
 
