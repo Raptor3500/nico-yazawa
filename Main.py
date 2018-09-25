@@ -18,6 +18,10 @@ async def status_task():
         await bot.change_presence(game=discord.Game(name='Snake Eater.', type=2)   
         await bot.change_presence(game=discord.Game(name='super secret documents.', type=1, url='http://twitch.tv/hauntedshadowslegacy')
 
+@bot.event
+async def on_ready():
+    bot.loop.create_task(status_task())
+                                  
 if __name__ == "__main__":
     for extension in startup_extensions:
         try:
