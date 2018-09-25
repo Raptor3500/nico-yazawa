@@ -1,3 +1,5 @@
+import os
+
 __cogs__ = [
     'cogs.noflippedtables'
 ] # These cogs actually make the bot have commands (except noflippedtables and ready).
